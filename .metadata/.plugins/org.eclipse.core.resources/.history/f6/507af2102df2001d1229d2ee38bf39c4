@@ -1,0 +1,24 @@
+package Variableetscanner;
+public class Principale02 {
+	// ce programme calcule le quotien de deux nombre
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// declaration des variables 
+		double number1;
+		double number2;
+		
+		// initialisation des variables 
+		number1=8;
+		number2= 2;
+		
+		//calcule du quotient des deux nombres
+		
+		double quotient = number1/number2;
+		System.out.println(" le quotient de ces deux nombres est "+ quotient);
+		
+		
+		
+
+	}
+
+}

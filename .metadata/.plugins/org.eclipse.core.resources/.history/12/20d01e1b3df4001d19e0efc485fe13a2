@@ -1,0 +1,30 @@
+package O5boucle;
+
+import java.util.Scanner;
+
+public class Principal05 {
+
+	public static void main(String[] args) {
+
+		int nombreEntier, i;
+		double tauxInteret, capitalInitiale, capitalFinal;
+		// recupera du capital initial
+		Scanner clavier = new Scanner(System.in);
+		System.out.print("Quel est le montant du capital à placer (en €)?? ");
+		capitalInitiale = clavier.nextDouble();
+		
+		// nombre d annee de placement du capital
+		System.out.print("Combien d'année le capital vas -t- il etre placé? ");
+		   i=clavier.nextInt();
+		   //
+			System.out.print("Quel est le taux d'interet au placement");
+			
+			tauxInteret=clavier.nextInt();
+			capitalFinal=capitalInitiale;
+		   
+
+		
+
+	}
+
+}

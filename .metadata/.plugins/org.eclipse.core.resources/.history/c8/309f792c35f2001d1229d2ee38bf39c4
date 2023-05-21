@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Principal03 {
+
+	public static void main(String[] args) {
+
+		//declaration des variables 
+		int codeSolde;
+		double prixArticle, PrixSolde;
+		
+		Scanner clavier=new Scanner(System.in);
+		System.out.println(" Entrer le prix de l'article :");
+		prixArticle=clavier.nextDouble();
+		
+		System.out.println(" entrer le code solde : 1 pour -20% 2 pour -50% ");
+		codeSolde= clavier.nextInt();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
